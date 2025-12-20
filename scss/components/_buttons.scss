@@ -1,0 +1,62 @@
+
+.button-hero {
+  border-radius: 10px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+.button-glas {
+  margin: 0 auto;
+   height: 50px;
+   width: 200px;
+   border-radius: 5px;
+   border: none;
+   font-size: 16px;
+   
+}
+.button-glas-div {
+  display: flex;
+  
+  height: 20px;
+}
+
+.button-svg {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.svg-button {
+  width: 24px;
+  height: 24px;
+margin-left: 5px;
+  fill: white;
+}
+.p-svg-button {
+  font-size: 16;
+  font-weight: bold;
+}
+.button-ysi {
+  width: 60px;
+}
+.section-zero-button:hover {
+  background-color: #2196F3;
+  color: white;
+
+}
+.section-zero-button {
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  transition:   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+   color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   animation-duration: 2s;
+}

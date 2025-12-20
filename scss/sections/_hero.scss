@@ -1,0 +1,30 @@
+.hero {
+  color: var(--header-bg-color);
+  background-color: var(--foter-bg-color);
+}
+.hero {
+  color: var(--color-blue);
+  background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+  url(../img/img16.jpg);
+  height: 600px;
+}
+
+.hero-h2 {
+  font-size: 40px;
+}
+.hero-content  {
+ display: flex;
+  color: #ffffff;
+  height: 250px;
+
+ flex-direction: column;
+align-items: center;
+
+width: 1200px;
+margin-top: 150px
+}
+.section-zero-div {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+}
