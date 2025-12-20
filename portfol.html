@@ -1,375 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
-   <link rel="stylesheet" href="./css/main.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+     <link rel="stylesheet" href="./css/main.min.css"> 
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <!-- шапка сторінки -->
-    <header class="header">
+  /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <header>
       <div class="container">
-        <h1 class="one-header-h1 animate__animated animate__pulse">
-          <b>Web<span class="logo">Studio</span></b>
-        </h1>
-        <nav class="one-header-nav">
-          <ul class="one-header-ul">
-            <li class="header-li"><a href="#" class="header-a">студія</a></li>
-            <li class="header-li"><a href="./portfol.html" class="header-a">портфоліо</a></li>
-            <li class="header-li"><a href="#" class="header-a">контакти</a></li>
-          </ul>
-        </nav>
-        <div class="div-header">
+<h1 class="one-h1 animate__animated animate__pulse">
+  <b>Web<span class="logo">Studio</span></b>
+</h1>
+  <nav class="header-nav">
+     <ul class="header-ul">
+         <li class="header-li"><a href="./index.html" class="header-a">студія</a></li> 
+         <li class="header-li"><a href="#" class="header-a">портфоліо</a></li>
+         <li class="header-li"><a href="#" class="header-a">контакти</a></li>
+     </ul>
+ </nav>
+  <div class="div-header">
           <div class="envelope">
             <svg class="svg-header">
-              <use href="./svg/symbol-defs.svg#icon-envelope"></use>
+              <use href="./svg/symbol-defs.svg#icon-envelope">
+
+              </use>
             </svg>
             <a href="#" class="header-li fone">info@devstudio.com</a>
           </div>
-          <div class="header-twitter">
-            <svg class="twiter">
-              <use href="./svg/symbol-defs.svg#icon-smartphone"></use>
-            </svg>
-            <a href="#" class="header-li fone">+38 096 111 11 11</a>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!--  -->
-    <main>
-      <section class="hero">
-        <div class="container">
-          <div class="hero-content">
-            <h2 class="hero-h2">Ефективні рішення для вашого бізнесу</h2>
-            <button type="button" class="button-hero btn-open animate__animated animate__bounce" data-modal-open>
-           <h3 class="hero-h3 " >замовити послугу</h3>
-            </button>
-  <div  class="backdrop is-hidden" data-modal>
-  <div class="modal">
-    <button type="button" class="close-btn" data-modal-close>✖</button>
-    <p class="glas-p">Залиште свої дані, ми вам передзвонимо</p>
-    <div class="svg-glas">
-      <p class="p-input">Ім'я</p>
-      <div class="border-svg">
-        <svg class="svg-input">
-          <use href="./svg/symbol-defs2.svg#icon-vector"></use>
-        </svg>
-        <input type="text" class="input-glas">
-      </div>
-    </div>
-     <div class="svg-glas">
-      <p class="p-input">Телефон</p>
-      <div class="border-svg">
-        <svg class="svg-input">
-          <use href="./svg/symbol-defs2.svg#icon-vector1"></use>
-        </svg>
-        <input type="text" class="input-glas">
-      </div>
-    </div>
-     <div class="svg-glas">
-      <p class="p-input">Пошта</p>
-      <div class="border-svg">
-        <svg class="svg-input">
-          <use href="./svg/symbol-defs2.svg#icon-vector2"></use>
-        </svg>
-        <input type="text" class="input-glas">
-      </div>
-    </div>
-    <div>
-      <p class="p-coment">Коментар</p>
-      <div class="order-glas">
-         <input type="Введіть текст" class="input-coment" placeholder="Введіть текст">
-      </div>
-    </div>
-    <div class="okey">
-      <label class="check">
-  <input type="checkbox" class="check-box">
-   
-</label>
-<div class="text-check">
-  <p class="p-check">Погоджуюся з розсилкою та приймаю</p>
-  <li class="li-check"><a href="#" class="a-check">  Умови договору</a></li>
-</div>
-    </div>
-    <div class="button-glas-div">
-    <button class="button-glas">Відправити</button>
-    </div>
-  </div>
-</div>
-  </div>
-</div>
-        </div>
-      </section>
-      <section class="section-main">
-        <div class="container">
-          <ul class="section-main-ul">
-            <li class="section-main-li">
-              <p class="section-main-h3">УВАГА ДО ДЕТАЛЕЙ</p>
-              <p class="p-main">
-                Ідейні міркування git add .і навіть початок повсякденної роботи
-                з формування позиції.
-              </p>
-            </li>
-            <li class="section-main-li">
-              <p class="section-main-h3">ПУНКТУАЛЬНІСТЬ</p>
-              <p class="p-main">
-                Завдання організації, особливо рамки і місце навчання кадрів
-                тягне у себе.
-              </p>
-            </li>
-            <li class="section-main-li">
-              <p class="section-main-h3">ПЛАНУВАННЯ</p>
-              <p class="p-main">
-                Так само консультація з широким активом значною мірою зумовлює.
-              </p>
-            </li>
-            <li class="section-main-li">
-              <p class="section-main-h3">СУЧАСНІ ТЕХНОЛОГІЇ</p>
-              <p class="p-main">
-                Значимість цих проблем настільки очевидна, що реалізація
-                планових завдань.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="section-img">
-        <div class="container">
-          <div class="section-img-div">
-            <h2 class="section-img-h2">Чим ми займаємося</h2>
-            <div class="div-colum">
-          <div class="section-div-img">
-            <img
-              src="./img/box1.jpg"
-              alt=""
-              height="200"
-              class="section-img-one"
-            />
-            <p class="p-img">Десктопні додатки</p>
-            </div>
-            <div class="section-div-img">
-            <img
-              src="./img/img2.jpg"
-              alt=""
-              height="200"
-              class="section-img-one"
-            />
-            <p class="p-img">Мобільні додатки</p>
-            </div>
-              <div class="section-div-img">
-            <img
-              src="./img/img1.jpg"
-              alt=""
-              height="200"
-              class="section-img-one"
-            />
-            <p class="p-img">Дизайнерські рішення</p>
-            </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section-it">
-        <div class="container">
-          <div class="rov">
-            <div class="section-it-div"><h2>Наша команда</h2></div>
+ <div class="header-twitter">
+  <svg class="twiter">
+    <use href="./svg/symbol-defs.svg#icon-smartphone"> 
 
-            <div class="item">
-              <div class="item-div">
-                <img
-                  src="./img/img3.jpg"
-                  alt=""
-                  class="section-it-img"
-                  height="260"
-                />
-                <h3 class="section-it-h3">Ігор Дем'яненко</h3>
-                <p class="p-section-it">Product Designer</p>
-                <div class="comand-circle">
-                   <div class="cirkle">
-                  <svg class="svg-comand">
-                    <use href="./svg/symbol-defs.svg#icon-instagram2"></use>
-                  </svg>
-                </div>
-                <div class="cirkle">
-                  <svg class="svg-comand">
-                    <use href="./svg/symbol-defs.svg#icon-twitter1"></use>
-                  </svg>
-                </div>
-                <div class="cirkle">
-                  <svg class="svg-comand">
-                    <use href="./svg/symbol-defs.svg#icon-facebook1"></use>
-                  </svg>
-                </div>
-                <div class="cirkle">
-                  <svg class="svg-comand">
-                    <use href="./svg/symbol-defs.svg#icon-in1"></use>
-                  </svg>
-                </div>
-              </div>
-                </div>
-               
-              <div class="item-div">
-                <img
-                  src="./img/img4.jpg"
-                  alt=""
-                  class="section-it-img"
-                  height="260"
-                />
-                <h3 class="section-it-h3">Ольга Рєпіна</h3>
-                <p class="p-section-it">Frontend Developer</p>
-                 <div class="comand-circle">
-                   <div class="cirkle">
-                  <svg class="svg-comand">
-                    <use href="./svg/symbol-defs.svg#icon-instagram2"></use>
-                  </svg>
-                </div>
-                <div class="cirkle">
-                  <svg class="svg-comand">
-                    <use href="./svg/symbol-defs.svg#icon-twitter1"></use>
-                  </svg>
-                </div>
-                <div class="cirkle">
-                  <svg class="svg-comand">
-                    <use href="./svg/symbol-defs.svg#icon-facebook1"></use>
-                  </svg>
-                </div>
-                <div class="cirkle">
-                  <svg class="svg-comand">
-                    <use href="./svg/symbol-defs.svg#icon-in1"></use>
-                  </svg>
-                </div>
-              </div>
-              </div>
-              <div class="item-div">
-                <img
-                  src="./img/img5.jpg"
-                  alt=""
-                  class="section-it-img"
-                  height="260"
-                />
-                <h3 class="section-it-h3">Микола Тарасов</h3>
-                <p class="p-section-it">Marketing</p>
-                 <div class="comand-circle">
-                   <div class="cirkle">
-                  <svg class="svg-comand">
-                    <use href="./svg/symbol-defs.svg#icon-instagram2"></use>
-                  </svg>
-                </div>
-                <div class="cirkle">
-                  <svg class="svg-comand">
-                    <use href="./svg/symbol-defs.svg#icon-twitter1"></use>
-                  </svg>
-                </div>
-                <div class="cirkle">
-                  <svg class="svg-comand">
-                    <use href="./svg/symbol-defs.svg#icon-facebook1"></use>
-                  </svg>
-                </div>
-                <div class="cirkle">
-                  <svg class="svg-comand">
-                    <use href="./svg/symbol-defs.svg#icon-in1"></use>
-                  </svg>
-                </div>
-              </div>
-              </div>
-              <div class="item-div">
-                <img
-                  src="./img/img6.jpg"
-                  alt=""
-                  class="section-it-img"
-                  height="260"
-                />
-                <h3 class="section-it-h3">Михайло Єрмаков</h3>
-                <p class="p-section-it">UI Designer</p>
-                 <div class="comand-circle">
-                   <div class="cirkle">
-                  <svg class="svg-comand">
-                    <use href="./svg/symbol-defs.svg#icon-instagram2"></use>
-                  </svg>
-                </div>
-                <div class="cirkle">
-                  <svg class="svg-comand">
-                    <use href="./svg/symbol-defs.svg#icon-twitter1"></use>
-                  </svg>
-                </div>
-                <div class="cirkle">
-                  <svg class="svg-comand">
-                    <use href="./svg/symbol-defs.svg#icon-facebook1"></use>
-                  </svg>
-                </div>
-                <div class="cirkle">
-                  <svg class="svg-comand">
-                    <use href="./svg/symbol-defs.svg#icon-in1"></use>
-                  </svg>
-                </div>
-              </div>
-              </div>
+    </use>
+  </svg>
+<a href="#" class="header-li fone">+38 096 111 11 11</a>
             </div>
-          </div>
+         
         </div>
-      </section>
-      <section class="clients">
-         <div class="container">
-          <div class="client-colum">
-         <div class="client-div">
-          <h2 class="h2-client">Постійні клієнти</h2>
+       </div>
+    </header>
+    <main>
+    <section class="section-zero">
+      <div class="container">
+        <div class="section-zero-div" >
+     <button class="section-zero-button button-ysi  animate__animated animate__zoomInDown ">Усі</button>
+     <button  class="section-zero-button            animate__animated animate__zoomInDown ">Веб-сайти</button>
+     <button  class="section-zero-button            animate__animated animate__zoomInDown ">Додатки</button>
+     <button  class="section-zero-button            animate__animated animate__zoomInDown ">Дизайн</button>
+     <button  class="section-zero-button            animate__animated animate__zoomInDown ">Маркетинг</button>
+     </div>
+     </div>
+     </section>
+     <section class="section-one">
+      <div class="container">
+        <div class="row">
+          <div class="section-one-div">
+            <div class="thumb">
+            <img src="./img/img7.jpg" alt="" width="300" class="section-one-img">
+            <div class="overlay">
+              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            </div>
+        <h3 class="section-one-h3">Технокряк </h3>
+           <p class="p-card">
+            Веб-сай
+           </p>
+          </div>
+          <div class="section-one-div">
+             <div class="thumb">
+            <img src="./img/img10.jpg" alt="" width="300" class="section-one-img">
+             <div class="overlay">
+              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            
+            </div>
+            <h3 class="section-one-h3">Проєкт Prime </h3>
+             <p class="p-card">
+               Маркетинг
+             </p>
          </div>
-         <div class="client-svg">
-        <svg class="svg-clent"  >
-          <use href="./svg/symbol-defs.svg#icon-lient1" class="use-client"></use>
-        </svg>
-        <svg class="svg-clent">
-          <use href="./svg/symbol-defs.svg#icon-lient2 "></use>
-        </svg>
-        <svg class="svg-clent">
-          <use href="./svg/symbol-defs.svg#icon-lient3 "></use>
-        </svg>
-        <svg class="svg-clent">
-          <use href="./svg/symbol-defs.svg#icon-lient4 "></use>
-        </svg>
-        <svg class="svg-clent">
-          <use href="./svg/symbol-defs.svg#icon-lient5 "></use>
-        </svg>
-        <svg class="svg-clent">
-          <use href="./svg/symbol-defs.svg#icon-lient6 "></use>
-        </svg>
+        <div class="section-one-div">
+           <div class="thumb">
+            <img src="./img/img13.jpg" alt="" width="300">
+            <div class="overlay">
+              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            </div>
+            <h3 class="section-one-h3">Видання Limited Edition</h3>
+          <p class="p-card">
+            Дизайн
+          </p>
          </div>
+        
+        <div class="section-one-div">
+           <div class="thumb">
+            <img src="./img/img8.jpg" alt="" width="300" class="section-one-img">
+             <div class="overlay">
+              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            </div>
+            <h3 class="section-one-h3">Постер New Orlean vs Golden Star </h3>
+           <p class="p-card">
+            Дизайн
+           </p>
+          </div>
+         <div class="section-one-div"> 
+          <div class="thumb">
+            <img src="./img/img11.jpg" alt="" width="300" class="section-one-img">
+            <div class="overlay">
+              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            </div>
+            <h3 class="section-one-h3">Проєкт Boxes</h3>
+           <p class="p-card">
+          Додаток
+           </p>
          </div>
+        <div class="section-one-div">
+          <div class="thumb">
+            <img src="./img/img14.jpg" alt="" width="300">
+             <div class="overlay">
+              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            </div>
+            <h3 class="section-one-h3">Проєкт LAB</h3>
+          <p class="p-card"> 
+           Маркетинг
+          </p>
          </div>
-      </section>
+        
+          <div class="section-one-div">
+              <div class="thumb">
+            <img src="./img/img9.jpg" alt="" width="300" class="section-one-img">
+            <div class="overlay">
+              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            </div>
+            <h3 class="section-one-h3">Ресторан Seafood </h3>
+           <p class="p-card">
+           Додаток
+           </p>
+          </div>
+           <div class="section-one-div">
+            <div class="thumb">
+            <img src="./img/img12.jpg" alt="" width="300" class="section-one-img">
+               <div class="overlay">
+              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            </div>
+            <h3 class="section-one-h3">Inspiration has no Borders</h3>
+           <p class="p-card">
+             Веб-сайт
+           </p>
+         </div>
+           <div class="section-one-div">
+             <div class="thumb">
+            <img src="./img/img15.jpg" alt="" width="300">
+            <div class="overlay">
+              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            </div>
+            <h3 class="section-one-p">Growing Business</h3>
+            <p class="p-card">
+               Додаток
+            </p>
+         </div>
+       </div>
+        </div>
+     </section>
+     
     </main>
-    <!--  -->
     <footer class="footer-one">
       <div class="container">
-        <div class="div-footer">
-          <h1 class="footer-one-h1">
-            <b>Web<span class="logo">Studio</span></b>
-          </h1>
-
-          <p class="footer-one-h4">м. Київ, пр-т Лесі Українки, 26</p>
-
-          <p class="footer-one-p">info@devstudio.com</p>
-          <p class="footer-one-p">+38 096 111 11 11</p>
-        </div>
-        <div class="footer-svg">
+        <div>
+      <h1 class="footer-one-h1">
+  <b>Web<span class="heri">Studio</span></b>
+</h1>
+        <h4 class="footer-one-h4">м. Київ, пр-т Лесі Українки, 26</h4>
+    
+    <p class="footer-one-p">info@devstudio.com</p>
+    <p class="footer-one-p"> +38 096 111 11 11</p>
+    </div>
+     <div class="footer-svg">
               
           <p class="footer-p-svg">приєднуйтесь</p>
           
@@ -389,10 +211,7 @@
           </svg>
           </div>
         </div>
-          
-         
-        
-        </div>
+            </div>
         <div>
           <div class="input-div-footer">
             <p class="p-footer-input">Підпишіться на розсилку</p>
@@ -411,8 +230,10 @@
             </svg>
            </button>
           </div>
-      </div>
+         
+        
+        </div>
+    </div>
     </footer>
-    <script src="./modal.js"></script>
-  </body>
+</body>
 </html>
