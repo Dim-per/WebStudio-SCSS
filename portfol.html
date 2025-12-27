@@ -16,162 +16,157 @@
     
 </head>
 <body>
-    <header>
+    <header class="header">
       <div class="container">
-<h1 class="one-h1 animate__animated animate__pulse">
-  <b>Web<span class="logo">Studio</span></b>
-</h1>
-  <nav class="header-nav">
-     <ul class="header-ul">
-         <li class="header-li"><a href="./index.html" class="header-a">студія</a></li> 
-         <li class="header-li"><a href="#" class="header-a">портфоліо</a></li>
-         <li class="header-li"><a href="#" class="header-a">контакти</a></li>
-     </ul>
- </nav>
-  <div class="div-header">
-          <div class="envelope">
-            <svg class="svg-header">
-              <use href="./svg/symbol-defs.svg#icon-envelope">
-
-              </use>
+        <h1 class="header__logo animate__animated animate__pulse">
+          <b>Web<span class="header__logo-accent">Studio</span></b>
+        </h1>
+        <nav class="header__nav">
+          <ul class="header__menu">
+            <li class="header__menu-item"><a href="./index.html" class="header__menu-link">студія</a></li>
+            <li class="header__menu-item"><a href="#" class="header__menu-link">портфоліо</a></li>
+            <li class="header__menu-item"><a href="#" class="header__menu-link">контакти</a></li>
+          </ul>
+        </nav>
+        <div class="header__contacts">
+          <div class="header__contact">
+            <svg class="header__contact-icon">
+              <use href="./svg/symbol-defs.svg#icon-envelope "></use>
             </svg>
-            <a href="#" class="header-li fone">info@devstudio.com</a>
+            <a href="#" class="header__menu-item header__contact-text">info@devstudio.com</a>
           </div>
- <div class="header-twitter">
-  <svg class="twiter">
-    <use href="./svg/symbol-defs.svg#icon-smartphone"> 
-
-    </use>
-  </svg>
-<a href="#" class="header-li fone">+38 096 111 11 11</a>
-            </div>
-         
+          <div class="header__contact">
+            <svg class="header__contact-icon">
+              <use href="./svg/symbol-defs.svg#icon-smartphone"></use>
+            </svg>
+            <a href="#" class="header__menu-item header__contact-text">+38 096 111 11 11</a>
+          </div>
         </div>
-       </div>
+      </div>
     </header>
     <main>
-    <section class="section-zero">
+    <section class="portfolio-filter">
       <div class="container">
-        <div class="section-zero-div" >
-     <button class="section-zero-button button-ysi  animate__animated animate__zoomInDown ">Усі</button>
-     <button  class="section-zero-button            animate__animated animate__zoomInDown ">Веб-сайти</button>
-     <button  class="section-zero-button            animate__animated animate__zoomInDown ">Додатки</button>
-     <button  class="section-zero-button            animate__animated animate__zoomInDown ">Дизайн</button>
-     <button  class="section-zero-button            animate__animated animate__zoomInDown ">Маркетинг</button>
+        <div class="portfolio-filter__list" >
+     <button class="portfolio-filter__button portfolio-filter__button--active  animate__animated animate__zoomInDown ">Усі</button>
+     <button  class="portfolio-filter__button            animate__animated animate__zoomInDown ">Веб-сайти</button>
+     <button  class="portfolio-filter__button            animate__animated animate__zoomInDown ">Додатки</button>
+     <button  class="portfolio-filter__button            animate__animated animate__zoomInDown ">Дизайн</button>
+     <button  class="portfolio-filter__button            animate__animated animate__zoomInDown ">Маркетинг</button>
      </div>
      </div>
      </section>
-     <section class="section-one">
+     <section class="portfolio">
       <div class="container">
-        <div class="row">
-          <div class="section-one-div">
-            <div class="thumb">
-            <img src="./img/img7.jpg" alt="" width="300" class="section-one-img">
-            <div class="overlay">
-              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+        <div class="portfolio__list">
+          <div class="portfolio__card">
+            <div class="portfolio__thumb">
+            <img src="./img/img7.jpg" alt="" width="300" class="portfolio__image">
+            <div class="portfolio__overlay">
+              <p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             </div>
-        <h3 class="section-one-h3">Технокряк </h3>
-           <p class="p-card">
+        <h3 class="portfolio__title">Технокряк </h3>
+           <p class="portfolio__category">
             Веб-сай
            </p>
           </div>
-          <div class="section-one-div">
-             <div class="thumb">
-            <img src="./img/img10.jpg" alt="" width="300" class="section-one-img">
-             <div class="overlay">
-              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+          <div class="portfolio__card">
+             <div class="portfolio__thumb">
+            <img src="./img/img10.jpg" alt="" width="300" class="portfolio__image">
+             <div class="portfolio__overlay">
+              <p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             
             </div>
-            <h3 class="section-one-h3">Проєкт Prime </h3>
-             <p class="p-card">
+            <h3 class="portfolio__title">Проєкт Prime </h3>
+             <p class="portfolio__category">
                Маркетинг
              </p>
          </div>
-        <div class="section-one-div">
-           <div class="thumb">
+        <div class="portfolio__card">
+           <div class="portfolio__thumb">
             <img src="./img/img13.jpg" alt="" width="300">
-            <div class="overlay">
-              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            <div class="portfolio__overlay">
+              <p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             </div>
-            <h3 class="section-one-h3">Видання Limited Edition</h3>
-          <p class="p-card">
+            <h3 class="portfolio__title">Видання Limited Edition</h3>
+          <p class="portfolio__category">
             Дизайн
           </p>
          </div>
         
-        <div class="section-one-div">
-           <div class="thumb">
-            <img src="./img/img8.jpg" alt="" width="300" class="section-one-img">
-             <div class="overlay">
-              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+        <div class="portfolio__card">
+           <div class="portfolio__thumb">
+            <img src="./img/img8.jpg" alt="" width="300" class="portfolio__image">
+             <div class="portfolio__overlay">
+              <p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             </div>
-            <h3 class="section-one-h3">Постер New Orlean vs Golden Star </h3>
-           <p class="p-card">
+            <h3 class="portfolio__title">Постер New Orlean vs Golden Star </h3>
+           <p class="portfolio__category">
             Дизайн
            </p>
           </div>
-         <div class="section-one-div"> 
-          <div class="thumb">
-            <img src="./img/img11.jpg" alt="" width="300" class="section-one-img">
-            <div class="overlay">
-              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+         <div class="portfolio__card"> 
+          <div class="portfolio__thumb">
+            <img src="./img/img11.jpg" alt="" width="300" class="portfolio__image">
+            <div class="portfolio__overlay">
+              <p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             </div>
-            <h3 class="section-one-h3">Проєкт Boxes</h3>
-           <p class="p-card">
+            <h3 class="portfolio__title">Проєкт Boxes</h3>
+           <p class="portfolio__category">
           Додаток
            </p>
          </div>
-        <div class="section-one-div">
-          <div class="thumb">
+        <div class="portfolio__card">
+          <div class="portfolio__thumb">
             <img src="./img/img14.jpg" alt="" width="300">
-             <div class="overlay">
-              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+             <div class="portfolio__overlay">
+              <p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             </div>
-            <h3 class="section-one-h3">Проєкт LAB</h3>
-          <p class="p-card"> 
+            <h3 class="portfolio__title">Проєкт LAB</h3>
+          <p class="portfolio__category"> 
            Маркетинг
           </p>
          </div>
         
-          <div class="section-one-div">
-              <div class="thumb">
-            <img src="./img/img9.jpg" alt="" width="300" class="section-one-img">
-            <div class="overlay">
-              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+          <div class="portfolio__card">
+              <div class="portfolio__thumb">
+            <img src="./img/img9.jpg" alt="" width="300" class="portfolio__image">
+            <div class="portfolio__overlay">
+              <p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             </div>
-            <h3 class="section-one-h3">Ресторан Seafood </h3>
-           <p class="p-card">
+            <h3 class="portfolio__title">Ресторан Seafood </h3>
+           <p class="portfolio__category">
            Додаток
            </p>
           </div>
-           <div class="section-one-div">
-            <div class="thumb">
-            <img src="./img/img12.jpg" alt="" width="300" class="section-one-img">
-               <div class="overlay">
-              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+           <div class="portfolio__card">
+            <div class="portfolio__thumb">
+            <img src="./img/img12.jpg" alt="" width="300" class="portfolio__image">
+               <div class="portfolio__overlay">
+              <p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             </div>
-            <h3 class="section-one-h3">Inspiration has no Borders</h3>
-           <p class="p-card">
+            <h3 class="portfolio__title">Inspiration has no Borders</h3>
+           <p class="portfolio__category">
              Веб-сайт
            </p>
          </div>
-           <div class="section-one-div">
-             <div class="thumb">
+           <div class="portfolio__card">
+             <div class="portfolio__thumb">
             <img src="./img/img15.jpg" alt="" width="300">
-            <div class="overlay">
-              <p class="overlay-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            <div class="portfolio__overlay">
+              <p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             </div>
-            <h3 class="section-one-p">Growing Business</h3>
-            <p class="p-card">
+            <h3 class="portfolio__category">Growing Business</h3>
+            <p class="portfolio__category">
                Додаток
             </p>
          </div>
@@ -180,60 +175,61 @@
      </section>
      
     </main>
-    <footer class="footer-one">
+    <footer class="footer">
       <div class="container">
-        <div>
-      <h1 class="footer-one-h1">
-  <b>Web<span class="heri">Studio</span></b>
-</h1>
-        <h4 class="footer-one-h4">м. Київ, пр-т Лесі Українки, 26</h4>
-    
-    <p class="footer-one-p">info@devstudio.com</p>
-    <p class="footer-one-p"> +38 096 111 11 11</p>
-    </div>
-     <div class="footer-svg">
+        <div class="div-footer">
+          <h1 class="footer__logo">
+            <b>Web<span class="header__logo-accent">Studio</span></b>
+          </h1>
+
+          <p class="footer__address">м. Київ, пр-т Лесі Українки, 26</p>
+
+          <p class="footer__contact">info@devstudio.com</p>
+          <p class="footer__contact">+38 096 111 11 11</p>
+        </div>
+        <div class="footer__socials">
               
-          <p class="footer-p-svg">приєднуйтесь</p>
+          <p class="footer__socials-title">приєднуйтесь</p>
           
-          <div class="div-footer-svg">
+          <div class="footer__socials-list">
            
-          <div class="svg-back"><svg class="svg-footer-img fone-footer">
+          <div class="footer__social-item"><svg class="footer__social-icon footer__social-icon">
             <use href="./svg/symbol-defs.svg#icon-instagram2 "></use>
           </svg></div>
-          <div class="svg-back"> <svg class="svg-footer-img fone-footer">
+          <div class="footer__social-item"> <svg class="footer__social-icon footer__social-icon">
             <use href="./svg/symbol-defs.svg#icon-twitter1 "></use>
           </svg></div>
-          <div class="svg-back"> <svg class="svg-footer-img fone-footer">
+          <div class="footer__social-item"> <svg class="footer__social-icon footer__social-icon">
             <use href="./svg/symbol-defs.svg#icon-facebook1 "></use>
           </svg></div>
-          <div class="svg-back"><svg class="svg-footer-img fone-footer">
+          <div class="footer__social-item"><svg class="footer__social-icon footer__social-icon">
             <use href="./svg/symbol-defs.svg#icon-in1 "></use>
           </svg>
           </div>
         </div>
-            </div>
+          
+         
+        
+        </div>
         <div>
-          <div class="input-div-footer">
-            <p class="p-footer-input">Підпишіться на розсилку</p>
-            <input type="text" class="input-futr" placeholder="E-mail">
+          <div class="footer__subscribe">
+            <p class="footer__subscribe-title">Підпишіться на розсилку</p>
+            <input type="text" class="footer__subscribe-input" placeholder="E-mail">
           </div>
          
         </div>
-         <div class="button-footer">
-           <button class="button-svg">
-            <p class="p-svg-button">
+         <div class="footer__subscribe-button">
+           <button class="footer__button">
+            <p class="footer__button-text">
 Підписатися</p>
-            <svg class="svg-button">
+            <svg class="footer__button-icon">
               <use href="./svg/symbol-defs2.svg#icon-iconsend2">
                 
               </use>
             </svg>
            </button>
           </div>
-         
-        
-        </div>
-    </div>
+      </div>
     </footer>
 </body>
 </html>

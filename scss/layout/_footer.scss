@@ -3,33 +3,33 @@
   flex-direction: column;
 }
 
-.div-footer-svg {
+.footer__socials-list {
  
  
 
   display: flex;
 }
-.footer-one-p {
-  color:#ffffff77 ;
+.footer__contact {
+  color:$gray-fff7;
   margin: 6px;
 }
-.footer-one-h4 {
+.footer__address {
   margin: 4px;
 }
-.footer-p-svg {
+.footer__socials-title {
  margin-left: 10px;
   height: 10px;
 }
-.input-futr {
-  background-color:#2F303A;
-  border: #757575 solid 1px;
+.footer__subscribe-input {
+  background-color:$foter-bg-color;
+  border: $gray solid 1px;
   border-radius: 5px;
   width: 300px;
   height: 50px;
   outline: none;
-  color: #757575;
+  color: $gray;
 }
-.input-div-footer {
+.footer__subscribe {
   
   margin-top: 50px;
 }

@@ -1,10 +1,10 @@
 
-.button-hero {
+.hero__button{
   border-radius: 10px;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
 }
-.button-glas {
+.modal__submit {
   margin: 0 auto;
    height: 50px;
    width: 200px;
@@ -13,13 +13,13 @@
    font-size: 16px;
    
 }
-.button-glas-div {
+.modal__submit-wrapper {
   display: flex;
   
   height: 20px;
 }
 
-.button-svg {
+.footer__button {
   display: flex;
   width: 200px;
   justify-content: center;
@@ -29,32 +29,32 @@
   margin-top: 80px;
   margin-left: 20px;
 }
-.svg-button {
+.footer__button-icon {
   width: 24px;
   height: 24px;
 margin-left: 5px;
-  fill: white;
+  fill: $button-text-color;
 }
-.p-svg-button {
+.footer__button-text {
   font-size: 16;
   font-weight: bold;
 }
-.button-ysi {
+.portfolio-filter__button--active {
   width: 60px;
 }
-.section-zero-button:hover {
-  background-color: #2196F3;
-  color: white;
+.portfolio-filter__button:hover {
+  background-color: $button-bg-color;
+  color: $button-text-color;
 
 }
-.section-zero-button {
+.portfolio-filter__button {
   margin-left: 10px;
   margin-right: 10px;
   border: none;
   height: 30px;
   border-radius: 5px;
-  background-color: white;
-  color: black;
+  background-color: $footer-text-color;
+  color: $black;
   font-weight: bold;
   transition:   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
    color 250ms cubic-bezier(0.4, 0, 0.2, 1);

@@ -1,32 +1,32 @@
-.svg-footer-img {
+.footer__social-icon {
 
   width: 20px;
   height: 20px;
   margin: 10px;
-  fill: #ffffff;
+  fill: $footer-text-color;
 }
-.footer-svg {
+.footer__socials {
     
    width: 250px;
    display: flex;
    justify-content: center;
    flex-direction: column;
    margin-left: 40px;
-}.svg-header {
+}.header__contact-icon {
   width: 18px;
   height: 18px;
    transition:
   fill 250ms  cubic-bezier(0.4, 0, 0.2, 1);
   
-}.client-svg {
+}.clients__list {
 display: flex;
   justify-content: center;
-} .svg-comand {
+} .team__social-icon {
   height: 22px;
   width: 22px;
 }
-.svg-back {
-  background-color: #ffffff11;
+.footer__social-item {
+  background-color: $color-fff;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -38,10 +38,10 @@ display: flex;
     transition:  
  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.svg-back:hover {
-  background-color:#2196F3 ;
+.footer__social-item:hover {
+  background-color:$button-bg-color ;
 }
-.svg-input {
+.modal__icon {
   height: 18px;
   width: 18px;
   margin-left: 5px;

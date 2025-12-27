@@ -1,11 +1,11 @@
-.section-main-ul {
+.features__list {
  
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
   width: 100%;
 }
-.section-main-li {
+.features__item {
    display: flex;
    flex-direction: column;
   width: 270px;
@@ -15,16 +15,16 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.section-main-li:hover {
+.features__item:hover {
 transform: translate(-10px, -10px);
   box-shadow: 10px 7px 5px 1px rgba(0, 0, 0, 0.384);
-}.section-main-h3 {
+}.features__title {
   font-weight: bold;
   margin-top: 50px;
   margin-bottom: 0;
   margin-left: 5px;
 }
-.section-main-li::before {
+.features__item::before {
  margin: 0 auto;
  
  margin-top: 10px;
@@ -37,110 +37,110 @@ transform: translate(-10px, -10px);
    
    
 }
-.p-main {
-  color: #757575;
+.features__text {
+  color: $gray;
   margin-top: 10px;
   margin-left: 5px;
 }
-.section-main-li:nth-child(1)::before {
+.features__item:nth-child(1)::before {
  background-image: url(../img/antenna1.jpg);
   
 }
-.section-main-li:nth-child(2)::before {
+.features__item:nth-child(2)::before {
   background-image: url(../img/clock1.jpg);
 }
 
-.section-main-li:nth-child(3)::before {
+.features__item:nth-child(3)::before {
   background-image: url(../img/diagram1.jpg);
 }
 
-.section-main-li:nth-child(4)::before {
+.features__item:nth-child(4)::before {
   background-image: url(../img/astronaut1.jpg);
 }
-.row {
+.portfolio__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
    flex-basis: calc((100% - 20px) / 3);
 }
-.section-one-div {
+.portfolio__card {
  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
  box-shadow:  3px 2px 12px 1px;
    
 }
-.section-one-div:hover {
+.portfolio__card:hover {
   transform: translate(-10px, -10px);
   box-shadow: 10px 7px 5px 1px rgba(0, 0, 0, 0.384);
 }
-.section-one-div:nth-child(1) {
+.portfolio__card:nth-child(1) {
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 10px;
   order:  1;
 }
-.section-one-div:nth-child(2) {
+.portfolio__card:nth-child(2) {
   display: flex;
   justify-content: center;
   flex-direction: column;
   order: 5;
 }
- .section-one-div:nth-child(3) {
+ .portfolio__card:nth-child(3) {
   display: flex;
   justify-content: center;
   flex-direction: column;
   order: 9;
 }
-.section-one-div:nth-child(4) {
+.portfolio__card:nth-child(4) {
   display: flex;
   justify-content: center;
   flex-direction: column;
   order: 1;
 }
-.section-one-div:nth-child(5) {
+.portfolio__card:nth-child(5) {
   display: flex;
   justify-content: center;
   flex-direction: column;
   order: 5;
 }
-.section-one-div:nth-child(6) {
+.portfolio__card:nth-child(6) {
   display: flex;
   justify-content: center;
   flex-direction: column;
   order: 9;
 }
-.section-one-div:nth-child(7) {
+.portfolio__card:nth-child(7) {
   display: flex;
   justify-content: center;
   flex-direction: column;
   order: 1;
 }
-.section-one-div:nth-child(8) {
+.portfolio__card:nth-child(8) {
   display: flex;
   justify-content: center;
   flex-direction: column;
   order: 5;
 }
-.section-one-div:nth-child(9) {
+.portfolio__card:nth-child(9) {
   display: flex;
   justify-content: center;
   flex-direction: column;
   order: 9;
 }
-.section-one-div {
+.portfolio__card {
   margin: 50px;
 }
-.p-card {
+.portfolio__category {
   margin-left: 10px;
 }
-.section-one-h3 {
+.portfolio__title {
    margin-left: 10px;
 }
-.thumb {
+.portfolio__thumb {
   position: relative;
   overflow: hidden;
 }
-.overlay {
+.portfolio__overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -148,12 +148,12 @@ transform: translate(-10px, -10px);
   height: 100%;
   padding: 20px;
   background: rgba(33, 150, 243, 0.9);
-  color: white;
+  color: $footer-text-color;
   opacity: 0;
   transform: translateY(100%);
    transition: opacity 250ms ease, transform 250ms ease;
 }
-.section-one-div:hover .overlay {
+.portfolio__card:hover .portfolio__overlay {
   opacity: 1;
   transform: translateX(0);
   

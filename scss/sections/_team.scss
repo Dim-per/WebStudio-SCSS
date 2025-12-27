@@ -1,11 +1,11 @@
-.section-it-div {
+.team__title {
  display: flex;
 
 justify-content: center;
 align-items: center;
 width: 1170px;
 }
-.item {
+.team__list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,13 +14,13 @@ width: 1170px;
 width: 1170px;
 gap: 40px;
 }
-.item-div {
+.team__card {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow:  3px 2px 12px 1px
   
 }
-.item-div:hover {
+.team__card:hover {
   transform: translate(-10px, -10px);
   box-shadow: 10px 7px 5px 1px rgba(0, 0, 0, 0.384);
 }
@@ -30,11 +30,11 @@ gap: 40px;
    align-items: center;
 }
 
-.cirkle {
+.team__social-item {
    display: flex;
     justify-content: center;
     align-items: center;
- fill: #afb1b8;
+ fill:$afb;
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -43,25 +43,25 @@ gap: 40px;
    transition:  fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.cirkle:hover {
-  fill: var(--header-bg-color);
-  background-color: var(--button-bg-color);
+.team__social-item:hover {
+  fill: $header-bg-color;
+  background-color: $button-bg-color;
 }
-.comand-circle {
+.team__socials {
     display: flex;
 }
-.section-it-h3 {
+.team__name {
   margin-left: 10px;
 }
-.p-section-it {
+.team__position {
   margin-left: 10px ;
 
 }
-.div-colum {
+.services__list {
   display: flex;
  
 }
-.rov {
+.team__wrapper {
   
   width: 1170px;
   margin-left: 20px ;
