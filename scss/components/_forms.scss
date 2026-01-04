@@ -32,7 +32,7 @@ border-radius: 5px;
   outline: none; 
    padding: 10px;
   
- transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include modal-border;
 }
 .modal__comment:focus {
    border-color:  $color-blue; 
@@ -42,7 +42,7 @@ border-radius: 5px;
 border: 1px solid $color;
   height: 120px;
   border-radius: 5px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include modal-border;
 }
 .modal__comment-wrapper:focus-within {
    border-color:  $color-blue; 
