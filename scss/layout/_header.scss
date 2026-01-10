@@ -4,7 +4,7 @@ header {
 }
 .header__menu-link {
   position: relative;
-  height: 44px;
+  height: 30px;
 
 }
 .header__menu-link::after {
@@ -47,9 +47,6 @@ display: flex;
   fill: $color-blue;
 }
 .header__contacts{
- height: 1px;
- margin-top: 40px;
-  width: 1200px;
   display: flex;
   justify-content: end;
  align-items: center;

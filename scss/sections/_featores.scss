@@ -1,5 +1,4 @@
 .features__list {
- 
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -8,9 +7,8 @@
 .features__item {
    display: flex;
    flex-direction: column;
-  width: 270px;
-  height: 248px;
-margin: 20px;
+  width: 350px;
+  margin: 0 auto;
 @include hover-card;
 
 }
@@ -57,26 +55,26 @@ transform: translate(-10px, -10px);
   background-image: url(../img/astronaut1.jpg);
 }
 .portfolio__list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-   flex-basis: calc((100% - 20px) / 3);
+    display: flex;
+  flex-wrap: wrap;
 }
 .portfolio__card {
  @include hover-card;
  box-shadow:  3px 2px 12px 1px;
-   
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: 370px;
 }
 .portfolio__card:hover {
   transform: translate(-10px, -10px);
   box-shadow: 10px 7px 5px 1px rgba(0, 0, 0, 0.384);
 }
 .portfolio__card:nth-child(1) {
-  @extend %flex;
+ @extend %flex;
   gap: 10px;
   order:  1;
 }
 .portfolio__card:nth-child(2) {
-  @extend %flex;
+ @extend %flex;
   order: 5;
 }
  .portfolio__card:nth-child(3) {
@@ -88,7 +86,7 @@ transform: translate(-10px, -10px);
   order: 1;
 }
 .portfolio__card:nth-child(5) {
- @extend %flex;
+@extend %flex;
   order: 5;
 }
 .portfolio__card:nth-child(6) {
