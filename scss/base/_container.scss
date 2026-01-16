@@ -5,6 +5,91 @@
   display: flex;
   justify-content: center;
 }
+
+@media (min-width:1200px){
+  .header__contacts {
+ margin-left: 100px;
+ }
+ .footer__container-double {
+  display: flex;
+ }
+ .portfolio__list {
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+ .portfolio__card {
+  width: calc(33.333% - 20px);
+  margin: 0;    
+  width: 200px;              
+}
+}
+@media screen and (max-width:768px){
+.header__contacts {
+  flex-direction: column;
+  margin-top: 70px;
+  margin-left: 60px;
+  gap: 5px;
+height: 1px;
+}
+.hero__title {
+  width: 400px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+.features__item {
+    flex-wrap: wrap;
+   width: 354px;
+   height: 224px;
+}
+.features__list {
+  
+   flex-wrap: wrap;
+}
+.services {
+  display: none;
+}
+.team__list {
+  flex-wrap: wrap;
+}
+.team__card {
+  width: 320px;
+  height: 536px;
+  
+}
+.team__photo {
+  width: 320px;
+  height: 374px;
+}
+.team__name , .team__position {
+ text-align: center;
+ }
+ .team__socials {
+  height: 50px;
+  width: 250px;
+ margin: 0 auto;
+ }
+ .clients__list {
+  flex-wrap: wrap;
+ }
+ .clients__item {
+ width: 226px;
+ }
+ .footer__container-double {
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ .portfolio__list {
+
+ }
+ .portfolio__card {
+ width: 100px;
+     margin: 0;   
+padding: 0;
+ }
+}
+
+
 @media screen and (max-width:480px) {
   
   .features__list {
@@ -124,88 +209,3 @@ width:360px;
  }
 
 }
-
-@media screen and (max-width:768px){
-.header__contacts {
-  flex-direction: column;
-  margin-top: 70px;
-  margin-left: 60px;
-  gap: 5px;
-height: 1px;
-}
-.hero__title {
-  width: 400px;
-  margin-left: 40px;
-  margin-bottom: 50px;
-}
-.features__item {
-    flex-wrap: wrap;
-   width: 354px;
-   height: 224px;
-}
-.features__list {
-  
-   flex-wrap: wrap;
-}
-.services {
-  display: none;
-}
-.team__list {
-  flex-wrap: wrap;
-}
-.team__card {
-  width: 320px;
-  height: 536px;
-  
-}
-.team__photo {
-  width: 320px;
-  height: 374px;
-}
-.team__name , .team__position {
- text-align: center;
- }
- .team__socials {
-  height: 50px;
-  width: 250px;
- margin: 0 auto;
- }
- .clients__list {
-  flex-wrap: wrap;
- }
- .clients__item {
- width: 226px;
- }
- .footer__container-double {
-  display: flex;
-  flex-wrap: wrap;
- }
-
- .portfolio__list {
-
- }
- .portfolio__card {
- width: 100px;
-     margin: 0;   
-padding: 0;
- }
-}
-@media (min-width:1200px){
-  .header__contacts {
- margin-left: 100px;
- }
- .footer__container-double {
-  display: flex;
- }
- .portfolio__list {
-  justify-content: center;
-  flex-wrap: wrap;
- }
- .portfolio__card {
-  width: calc(33.333% - 20px);
-  margin: 0;    
-  width: 200px;              
-}
-}
-
-
