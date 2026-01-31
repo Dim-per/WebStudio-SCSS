@@ -92,6 +92,19 @@ html, body {
     width: 200px;
   }
 }
+@media (min-width: 1200px) {
+  .hero {
+    background-image: url("../hero_banner/hero-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1200px) and (min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url("../hero_banner/hero-desktop@2x.jpg");
+  }
+}
 @media (max-width: 768px) {
   .header__contacts {
     flex-direction: column;
@@ -150,8 +163,32 @@ html, body {
     margin: 0;
     padding: 0;
   }
+  .hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 768px) {
+  .hero {
+    background-image: url("../hero_banner/hero-tablet.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 768px) and (min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url("../hero_banner/hero-tablet@2x.jpg");
+  }
 }
 @media (max-width: 480px) {
+  .hero {
+    background-image: url("../hero_banner/hero-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   .features__list {
     flex-direction: column;
   }
@@ -290,6 +327,11 @@ html, body {
   outline: none;
 }
 
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .hero {
+    background-image: url("../hero_banner/hero-mobile@2x.jpg");
+  }
+}
 @media (min-width: 480px) {
   .menu-toggle {
     display: none;
