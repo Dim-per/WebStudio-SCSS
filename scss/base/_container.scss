@@ -112,6 +112,9 @@ padding: 0;
   background-position: center;
   background-repeat: no-repeat;
   }
+  .header__logo {
+    margin-left: 50px;
+  }
 }
 
 
@@ -261,6 +264,7 @@ width:360px;
 .menu {
     display: none;
   }
+
 }
 
 .menu .link {
@@ -360,4 +364,12 @@ width:360px;
 }
 .menu-toggle svg {
   fill: #000; /* черный */
+}
+@media (min-width:768px) and (max-width:1200px){
+.team__list {
+  flex-wrap: wrap;
+}
+}
+.wigth_img {
+  width: 100%;
 }

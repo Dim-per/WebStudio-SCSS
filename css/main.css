@@ -168,6 +168,9 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
   }
+  .header__logo {
+    margin-left: 50px;
+  }
 }
 @media (min-width: 768px) {
   .hero {
@@ -391,6 +394,15 @@ html, body {
 
 .menu-toggle svg {
   fill: #000; /* черный */
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .team__list {
+    flex-wrap: wrap;
+  }
+}
+.wigth_img {
+  width: 100%;
 }
 
 .portfolio__card:nth-child(9), .portfolio__card:nth-child(8), .portfolio__card:nth-child(7), .portfolio__card:nth-child(6), .portfolio__card:nth-child(5), .portfolio__card:nth-child(4), .portfolio__card:nth-child(3), .portfolio__card:nth-child(2), .portfolio__card:nth-child(1) {
